@@ -1,0 +1,47 @@
+-- local modes = {
+--   ['n'] = 'Normal',
+--   ['no'] = 'Normal',
+--   ['v'] = 'Visual',
+--   ['V'] = 'Visual Line',
+--   ['CTRL-V'] = 'Visual Block',
+--   ['s'] = 'Select',
+--   ['S'] = 'Select Line',
+--   ['CTRL-S  '] = 'Select Block',
+--   ['i'] = 'Insert',
+--   ['ic'] = 'Insert',
+--   ['R'] = 'Replace',
+--   ['Rv'] = 'Visual Replace',
+--   ['c'] = 'Command',
+--   ['cv'] = 'Vim Ex',
+--   ['ce'] = 'Ex',
+--   ['r'] = 'Prompt',
+--   ['rm'] = 'Moar',
+--   ['r?'] = 'Confirm',
+--   ['!'] = 'Shell',
+--   ['t'] = 'Terminal',
+-- }
+--
+-- local function mode()
+--   local current = vim.api.nvim_get_mode().mode
+--   return string.format('%s', modes[current])
+-- end
+--
+-- local function lineinfo()
+--   if vim.bo.filetype == 'alpa' then
+--     return ''
+--   end
+--   -- Note: I am unclear where these come from
+--   return '%P %l:%c'
+-- end
+--
+-- -- I want to know
+-- local function current_branch() end
+-- local function lspinfo()
+--   -- language
+--   -- warnings
+--   -- errors]
+--   -- hints
+--   -- info
+-- end
+--
+-- Note: Use lua line and config instead of writing from scratch
